@@ -1,7 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <p>Image Logo here</p>
+
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,9 +13,20 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card>
+    <ion-card-header>
 
-  <div id="container">
+      <ion-card-title>Card about Logged in ...</ion-card-title>
+      <ion-card-subtitle>Subtitle of news</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Breaf description how it is will work. I am logged
+    </ion-card-content>
+  </ion-card>
+  <ion-button (click)="logMeOut()">Logout</ion-button>
+  <!-- <div id="container">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  </div> -->
 </ion-content>
